@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TkD Auto</title>
+    <style>
+            body{
+                background-color: rosybrown;
+            }
+            .header{
+                width: 100%;
+                height: 60px;
+                background-color: maroon;
+            }
+            .header #logo{
+                width: 60px;
+                height: 60px;
+            }
+            .header h1{
+                position: absolute;
+                left: 80px;
+                top: -12px;
+                line-height: 60px;
+                color: white;
+            }
+            .header ul{
+                float: right;
+                margin-right: 100px;
+            }
+            .header ul li{
+                list-style-type: none;
+                display: inline-block;
+                margin-right: 20px;
+            }
+            .header ul li a{
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+            }
+            .header ul li a:hover{
+                color: black;
+            }     
+            .type table{
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+            } 
+            .type table tr td{
+                text-align: center;
+                color: darkblue;
+                font-size: 20px;
+               
+            }
+            .type table tr img{
+                width: 300px;
+                height: 250px;
+                border: 2px solid darkcyan;
+                opacity: 0.7;
+            }
+            .type table tr img:hover{
+                width: 300px;
+                height: 250px;
+                border: 2px solid darkcyan;
+                opacity: 1;
+            }
+            .content table{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .content table tr td{
+                text-align: center;
+                color: aliceblue;
+            }
+            .footer{
+                background-color: black;
+                width: 100%;
+            }
+            .footer hr{
+                width: 90%;
+            }
+            .footer table{
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            .footer table tr td{
+                color: white;
+                padding-left: 50px;
+                padding-right: 50px;
+            } 
+            .footer table tr td img{
+                width: 50px;
+                height: 50px;
+                margin-right: 10px;
+            }
+            .footer h3{
+                color: white;
+                margin-right: 75px;
+            }
+			hr{
+				border:2px solid white;
+				width:80%
+			} 
+            p a{
+                text-decoration: none;
+                font-size: 20px;
+                padding: 5px;
+                color: white;
+                background-color: black;
+            }
+            .content p{
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img id="logo" src="img/logo.png" alt="Logo" align="middle">
+        <h1>TkD Auto</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="learn.html">Learn</a></li>
+        </ul>         
+    </div><br>
+    <h1 align="center" id="section">Available Courses</h1>
+    <div class="type">
+        <table>
+            <tr>
+                <td>Web Programming</td>
+                <td>C Programming</td>
+                <td>My SQL</td>
+            </tr>
+            <tr>
+                <td><a href="#section1"><img src="img/web.jpg" alt=""></a></td>
+                <td><a href="#section2"><img src="img/c.jpg" alt=""></a></td>
+                <td><a href="#section3"><img src="img/sql.jpeg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td>Arduino</td>
+                <td>Project Management</td>
+                <td>Artificial Intelegence</td>
+            </tr>
+            <tr>
+                <td><a href="#section4"><img src="img/arduino.jpg" alt=""></a></td>
+                <td><a href="#section5"><img src="img/pm.jpg" alt=""></a></td>
+                <td><a href="#section6"><img src="img/py.jpg" alt=""></a></td>
+            </tr>
+            
+        </table>
+    </div><br><hr><br><br>
+    <div class="content" id="section1">
+        <h2 align="center">Web Programming</h2>
+        <p align="center">Web is a computer programming system created by Donald E.
+             Knuth as the first implementation of what he called "literate programming": 
+             the idea that one could create software as works of literature, by embedding 
+             source code inside descriptive text, rather than the reverse
+              (as is common practice in most programming languages), 
+              in an order that is convenient for exposition to human readers, 
+              rather than in the order demanded by the compiler.
+        </p>
+        <table>
+            <tr>
+                <td>Introduction1</td>
+                <td>Introduction2</td>
+                <td>Web Page</td>
+                <td>Formatting</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/oDPibLLa5eE"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/33L-gLQ30M8"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/P5yHNIHy9UY"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/L0Lcgc9u3gc"></iframe></td>
+            </tr>
+            <tr>
+                <td>Unordered list</td>
+                <td>Image </td>
+                <td>Table</td>
+                <td>Input</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/Ta-oAO59e_Q"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/hV8_CTmdV7w"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/0LCyvrDkZTE"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/OgebgpEl2Hk"></iframe></td>
+            </tr>
+            <tr>
+                <td>Links</td>
+                <td>Entities</td>
+                <td>IF frams</td>
+                <td>CSS Introduction</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/7smK3T8Pn6Y"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/aEIgWa1vpNA"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/LjMRiz-Fat4"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/LSJ-PHgk4bQ"></iframe></td>
+            </tr>
+        </table>
+    </div>
+    <p align="center"><a href="#section">Go to type</a></p>
+    <br><hr><br><br>
+    <div class="content" id="section2">
+        <h2 align="center">C Programming</h2>
+        <p align="center">C is a general-purpose computer programming language. 
+            It was created in the 1970s by Dennis Ritchie, and remains very widely
+            used and influential. By design, C's features cleanly reflect the 
+            capabilities of the targeted CPUs.
+       </p>
+        <table>
+            <tr>
+                <td>Introduction</td>
+                <td>printf()</td>
+                <td>Data Types</td>
+                <td>Variables-1</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/eECU4xVP8AU"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/2I19sXxqxeQ"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/QT9mTvLF8YI"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/CfTVUFP-zbY"></iframe></td>
+            </tr>
+            <tr>
+                <td>Variables-2</td>
+                <td>Variables-3</td>
+                <td>Inputs/Scan</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/AgE59biu5EI"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/CxkPXp4y-UY"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/QMInGLWmKDk"></iframe></td>
+            </tr>
+        </table>
+    </div>
+    <p align="center"><a href="#section">Go to type</a></p>
+    <br><hr><br><br>
+    <div class="content" id="section3">
+        <h2 align="center">My SQL</h2>
+        <p align="center">MySQL is an open-source relational database management system.
+            Its name is a combination of "My", the name of co-founder Michael Widenius's 
+            daughter My, and "SQL", the abbreviation for Structured Query Language.
+       </p>
+        <table>
+            <tr>
+                <td>Introduction</td>
+                <td>Installation</td>
+                <td>Database create</td>
+                <td>Data Type</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/ikJh_JzidJE"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/7xiTSMjb4Ms"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/wr4SiiEqTVM"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/vQUulERfAhw"></iframe></td>
+            </tr>
+            <tr>
+                <td>Create Drop Table</td>
+                <td>Insert Query</td>
+                <td>Select Query</td>
+                <td>Where Clause</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/VQbUeQbWhAs"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/e3z8qK8XRaE"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/_lTuPPbQUHM"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/D773xgL8nJQ"></iframe></td>
+            </tr>
+            <tr>
+                <td>Update Query</td>
+                <td>Delete Query</td   
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/soC3bOSLL-w"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/Luh9cmUXK9c"></iframe></td>
+            </tr>
+        </table>
+    </div>
+    <p align="center"><a href="#section">Go to type</a></p>
+    <br><hr><br><br>
+    <div class="content" id="section4">
+        <h2 align="center">Arduino</h2>
+        <p align="center">Arduino is an open-source hardware and software company, 
+            project, and user community that designs and manufactures single-board 
+            microcontrollers and microcontroller kits for building digital devices.
+       </p>
+        <table>
+            <tr>
+                <td>Introduction</td>
+                <td>Programming</td>
+                <td>Simple Knight Rider pattern</td>
+                <td>if else & IR Sensor</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/iI_EJvZUT94"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/cMDrNNVqpBU"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/4U6jWetnOoY"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/yXGduLTzEAM"></iframe></td>
+            </tr>
+            <tr>
+                <td>L298N Motor Driver</td>
+                <td>Servo Motors</td>
+                <td>Serial Monitor</td>
+                <td>TV remote</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/AQId7mZPMP4"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/QtrokWL4FEA"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/FDc6eeV6_Xw"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/1yxOSteIMJw"></iframe></td>
+            </tr>
+            <tr>
+                <td>Bluetooth HC 06</td>
+                <td>Current with bluetooth</td>
+                <td>PIR Sensor</td>
+                <td>LCD Display</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/bDfCsnChQMM"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/iVdlHzHnT7o"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/EvuU-pzUkZw"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/_vE7HUvn1-Q"></iframe></td>
+            </tr>
+        </table>
+    </div>
+    <p align="center"><a href="#section">Go to type</a></p>
+    <br><hr><br><br>
+    <div class="content" id="section5">
+        <h2 align="center">Project Management</h2>
+        <p align="center">Project management is the process of leading the work 
+            of a team to achieve all project goals within the given constraints.
+            This information is usually described in project documentation, 
+            created at the beginning of the development process. The primary 
+            constraints are scope, time, and budget.
+       </p>
+        <table>
+            <tr>
+                <td>Introduction</td>
+                <td>PM BOK</td>
+                <td>Time Management Tool</td>
+                <td>Project Charter</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/RYFLT2cErVM"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/2iwyqLmloP0"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/WayywTmHqhI"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/f31zk-qDEvE"></iframe></td>
+            </tr>
+            <tr>
+                <td>Role of Project Manager</td>
+                <td>Flow Chart</td>
+                
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/QBMrknQiN3w"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/pJHCSDYNAEQ"></iframe></td>
+                
+            </tr>
+  
+        </table>
+    </div>
+    <p align="center"><a href="#section">Go to type</a></p>
+    <br><hr><br><br>
+    <div class="content" id="section6">
+        <h2 align="center">Python</h2>
+        <p align="center">Python is a high-level, general-purpose programming language. 
+            Its design philosophy emphasizes code readability with the use of significant 
+            indentation.Python is dynamically-typed and garbage-collected. 
+            It supports multiple programming paradigms, including structured, object-oriented
+            and functional programming.
+       </p>
+        <table>
+            <tr>
+                <td>Introduction</td>
+                <td>Basic operators</td>
+                <td>Variables & Data Types</td>
+                <td>Functions</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/4OuKhqbu4vg"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/lYti6QiDWTU"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/9OFrBtpNoZ8"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/m657bzwrllo"></iframe></td>
+            </tr>
+            <tr>
+                <td>Functions & modules</td>
+                <td>Strings</td>
+                <td>Operators</td>
+                <td>if else</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/sE0h_n6Xl8A"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/lv3soGW-mTM"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/0tgj9CBa_gY"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/_OVUfLzv5Go"></iframe></td>
+            </tr>
+            <tr>
+                <td>Python List</td>
+                <td>Python Collections</td>
+                <td>Python Set</td>
+                <td>Python Dictionary</td>
+            </tr>
+            <tr>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/Kc3z-XccwfU"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/UfZHWn4Ed0M"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/PBVaflj4_ww"></iframe></td>
+                <td><iframe width="300" height="200" src="https://www.youtube.com/embed/z3VAstokIHY"></iframe></td>
+            </tr>
+        </table>
+    </div>
+    <p align="center"><a href="#section">Go to type</a></p>
+    <br><hr><br><br>
+    <div class="footer">
+        <br><hr>
+        <table>
+            <tr>
+                <td>CONTACT<br> 076-4084211</td>
+                <td>FOLLOW US</td>
+            </tr>   
+            <tr>
+                <td><p>Samanpaya,<br>Thellambura,<br>Nakiyadeniya<br><br>Gmail : tkdauto@gmail.com</p></td>
+                <td><a href="https://www.facebook.com/"><img src="img/fb.jpg" alt="fb"></a><a href="https://www.youtube.com/"><img src="img/youtube.jpg" alt="Youtube"></a>
+                <a href="https://www.instragram.com"><img src="Img/instragram.jpg" alt="instragram"></a></td>
+            </tr>
+        </table>
+        <hr>
+        <h3 align="right">Copyright &copy 2022 by Shammi</h3><br>
+    </div> 
+</body>
+</html>

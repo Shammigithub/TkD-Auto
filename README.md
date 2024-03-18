@@ -1,15 +1,19 @@
 # TkD-Auto
-For my final project in the second year of the second semester of the MGIT 2201.3 course -
-Web Systems and Technologies 
 
-I have diligently adhered to the lecturer's instructions, 
-exclusively utilizing HTML as the primary web development language. The culmination of my 
-efforts has resulted in the creation of an interactive website aimed at catering to students
-who possess a keen interest in pursuing online learning opportunities. The platform offers a 
-user-friendly and engaging interface, providing a diverse array of educational resources to 
-facilitate seamless and effective learning experiences. Emphasizing simplicity, accessibility, 
-and functionality, this website is designed to empower students in their educational journey, 
-enabling them to explore and embrace the advantages of online learning.
+This website is a project for the MGIT 2201.3 course - Web Systems and Technologies, designed as an online learning platform for students interested in technology.
+
+## Features
+- **Courses**: Browse in various technology-related courses.
+
+## Technologies Used
+- HTML
+- CSS
+
+## Getting Started
+1. Clone this repository.
+2. Open the `index.html` file in your web browser to view the website.
+
+## Screenshots
 
 ![Screenshot (240)](https://github.com/Shammigithub/TkD-Auto/assets/99946678/60337bca-6aeb-4333-b2da-d86cdd813971)
 

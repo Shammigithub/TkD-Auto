@@ -1,4 +1,4 @@
-# TkD-Auto
+# TkD-Auto - Website
 
 This website is a project for the MGIT 2201.3 course - Web Systems and Technologies
 

@@ -1,6 +1,7 @@
 # TkD-Auto
 
 This website is a project for the MGIT 2201.3 course - Web Systems and Technologies
+
 designed as an online learning platform for students interested in technology.
 
 ## Features
